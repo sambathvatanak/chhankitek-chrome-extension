@@ -1,0 +1,22 @@
+{
+    "name": "Khmer Chanketik",
+    "description": "Google Chrome extension use to generate Khmer Chanketik Calendar",
+    "version": "1.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {               
+            "16": "/image/logo-one.png",
+            "48": "/image/logo-two.png",
+            "128": "/image/logo-three.png"      
+          }
+      },
+      "icons": {
+        "16": "/image/logo-one.png",
+        "48": "/image/logo-two.png",
+        "128": "/image/logo-three.png"  
+      }         
+  }
