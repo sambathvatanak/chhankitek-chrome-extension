@@ -690,7 +690,10 @@ khNewYearMoments = constant.khNewYearMoments
   }
 
   function normalDay(day){
-    if(day == 1){
+    if(day == 0){
+      day = "០";
+    }
+    else if(day == 1){
       day = "១";
     }else if(day == 2){
       day = "២";

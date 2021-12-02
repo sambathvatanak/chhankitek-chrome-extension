@@ -1,7 +1,7 @@
 {
-    "name": "Khmer Chanketik",
-    "description": "Google Chrome extension use to generate Khmer Chanketik Calendar",
-    "version": "1.0.1",
+    "name": "Khmer Chhankitek",
+    "description": "Google Chrome extension use to generate Khmer Chhankitek Calendar",
+    "version": "1.0.4",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
